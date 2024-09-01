@@ -30,5 +30,5 @@ let 1nome;*/
 /*case-sensitive (significa que levras maiusculas e minusculas fazem diferença nos nomes das variáveis)
 Exemplo: 
 nomeCliente é diferente de nomecliente*/
-
+//NÃO UTILIZE MAS "var", ULTILIZE "let"
 nomeCliente2 = 'Pinto Luis'
