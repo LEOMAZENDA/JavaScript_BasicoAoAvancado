@@ -15,6 +15,13 @@ let anoNAcimento;
 imc =  peso/(alturaEmM*alturaEmM);
 anoNAcimento = 2019 - idade
 
+//RESOLUÇÃO 1
 console.log(nome, sobrenome,'tem',idade,'anos, pesa',peso+'kg');
 console.log('tem',alturaEmM+'M','de altura e seu IMC é de',imc);
 console.log(nome, 'nasceum em',anoNAcimento+'.');
+console.log()
+
+//Template string
+console.log(`${nome} ${sobrenome} tem ${idade} anos e pesa ${peso}kg`);
+console.log(`tem ${alturaEmM}M de altura e seu IMC é de ${imc}`);
+console.log(`${nome} nasceum em ${anoNAcimento}.`);
