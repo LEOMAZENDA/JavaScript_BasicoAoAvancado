@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicios da aula 13</title>
+</head>
+<body>
+    <script>
+        const nome = prompt('Digite o seu nome complecto');
+        document.body.innerHTML += `O seu nome complecto é: <strong>${nome}<strong/><br/>`;        
+        document.body.innerHTML += `Seu nome é tem ${nome.length} letras.<br/>`;
+        document.body.innerHTML += `A segunda letra do teu nome é: <strong>${nome.slice(1,2)}<strong/> <br/>`;
+        document.body.innerHTML += `A segunda letra do teu nome é: <strong>${nome.charAt(1)}<strong/> => (da aulta)<br/>`;
+        document.body.innerHTML += `A segunda letra do teu nome é: <strong>${nome[1]}<strong/> => (da aulta)<br/>`;
+        document.body.innerHTML += `Qual é o primeiro indice da LETRA o do teu nome?<strong> ${nome.indexOf('o')}<strong/> => (Corregido na aulta) <br/>`;
+        document.body.innerHTML += `Qual é o ultio indice da LETRA do a teu nome?  <strong>${nome.lastIndexOf('a')}<strong/> => (Corregido na aulta) <br/>`;
+        // document.body.innerHTML += `As últimas 3 letras do seu nome é: <strong>${nome.slice(nome.length -3)}<strong/> <br/>`;
+        document.body.innerHTML += `As últimas 3 letras do seu nome é: <strong>${nome.slice(-3)}<strong/>  => (da aulta)<br/>`; 
+        document.body.innerHTML += `As palavras do teu nome são: <strong>${nome.split(' ')} <strong/><br/>`;
+        document.body.innerHTML += `Seu  nome com letras maiúsculas: <strong>${nome.toUpperCase()}<strong/> <br/>`;
+        document.body.innerHTML += `Seu  nome com letras minúsculas: <strong>${nome.toLowerCase()}<strong/> <br/>`;
+        document.body.innerHTML += `É O FINAL "${nome.toUpperCase()}"<br>` ;
+        console.log(Nome);
+    </script>
+</body>
+</html>
