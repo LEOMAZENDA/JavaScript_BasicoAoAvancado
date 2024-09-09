@@ -5,11 +5,13 @@ OPERADORES LÓGICOS
 ! -> NOT -> NÃO
  */
 
+//-------------------------------------------------------------------------------------
 // //AND
 // const expVerdadeAnd = true && true && true && true;
 // const expFalsaAndFalsa = true && true && true && false;
 // console.log(expVerdadeAnd, expFalsaAndFalsa);
 
+//-------------------------------------------------------------------------------------
 // //OR
 // const expVerdadeOr = true || true || true || true;
 // const expVerdadeOrFalsa = false || false || false || false;
@@ -21,6 +23,7 @@ OPERADORES LÓGICOS
 // const logar = usuario === 'Leonildo' && senha === '123456';
 // console.log(logar);
 
+//-------------------------------------------------------------------------------------
 //NOT
 console.log(true)
 console.log(!true);
