@@ -1,4 +1,4 @@
-// estrutura ccondicional IF
+// estrutura condicional IF
 /*
     Entre 0 - 11 --> Bom dia 
     Entre 12 - 17 --> Boa tarde  
