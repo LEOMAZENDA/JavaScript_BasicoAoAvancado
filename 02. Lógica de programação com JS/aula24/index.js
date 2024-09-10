@@ -13,4 +13,4 @@ if(hora >= 0 && hora <= 11){
 } else if (hora >= 18 && hora <= 23){
     console.log('Boa noite!');
 } else 
-    console.log('Hora não exixtente!');
+    console.log('Olá... Digite uma hora válida "Entre 0h à 23h!"');
