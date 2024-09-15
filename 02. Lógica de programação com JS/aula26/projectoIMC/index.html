@@ -10,25 +10,41 @@
 
 <body>
     <section class="container">
-        <div>
-            <h1>Tabela IMVC</h1>
-            <p>Menos do que 18.5</p>
-            <p>Entre 18.5 e 24.9</p>
-            <p>Entre 25 e 29.9</p>
-            <p>Entre 30 e 34.9</p>
-            <p>Entre 35 e 39.9</p>
-            <p>Mais do que 40</p>
+        <div class="">
+            <div>
+                <h1>Tabela IMVC</h1>
+                <hr />
+                <p>Menos do que 18.5</p>
+                <p>Entre 18.5 e 24.9</p>
+                <p>Entre 25 e 29.9</p>
+                <p>Entre 30 e 34.9</p>
+                <p>Entre 35 e 39.9</p>
+                <p>Mais do que 40</p>
+            </div>
+            <!-- <div>
+                <h1>Resultado</h1>
+                <hr />
+                <p>Menos do que 18.5</p>
+                <p>Entre 18.5 e 24.9</p>
+                <p>Entre 25 e 29.9</p>
+                <p>Entre 30 e 34.9</p>
+                <p>Entre 35 e 39.9</p>
+                <p>Mais do que 40</p>
+            </div> -->
+
+            <hr />
+            <h1>Calcule o seu IMVC</h1>
+            <hr />
+
+            <form action="/" id="formulario" method="post">
+                <label for="peso">Peso</label>
+                <input type="text" id="peso" name="peso">
+                <label for="altura">Altura</label>
+                <input type="text" id="altura" name="altura">
+                <button>Calcular</button>
+            </form>           
         </div>
-
-        <h1>Calcule o seu IMVC</h1>        
-        <form action="/" id="formulario" method="post">
-            <label for="peso">Peso</label>
-            <input type="text" id="peso" name="peso">
-            <label for="altura">Altura</label>
-            <input type="text" id="altura" name="altura">
-            <button>Calcular</button>
-        </form>
-
+        <div id="resultado"></div>
     </section>
 
     <script src="./assets/js/main.js"></script>
