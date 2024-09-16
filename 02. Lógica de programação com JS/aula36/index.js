@@ -31,7 +31,7 @@ FOR OF --> Retorna o valor e, si - (iteráveis, arrays ou strings)
 
 ------------------------------------------------------
 
-As diferenças entre os loops no seu código são as seguintes:
+As diferenças entre os loops no seu código a cima são as seguintes:
 
 FOR OF:
 Percorre os valores da array diretamente.
@@ -41,7 +41,7 @@ FOR IN:
 Percorre as chaves/índices da array.
 Usa o índice (chave) para acessar os valores, então nome[chave] retorna o valor correspondente.
 
-OR CLÁSSICO:
+FOR CLÁSSICO:
 Controla o loop usando um índice manualmente (i), desde 0 até o tamanho da array.
 Funciona como o FOR IN, mas você define as condições do loop.
 
