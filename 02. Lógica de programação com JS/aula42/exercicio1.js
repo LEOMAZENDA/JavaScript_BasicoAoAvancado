@@ -1,18 +1,22 @@
-/*
-Escreva uma função chamada ePaisagem que recebe dois argumentos,
-largura e altura de uma imagem (em numeros). 
-Retorna true se a imagem estiver no modo paisagem.
+/* Escreva uma função que recebe um numero e retorna o seguinte:
+1. Numero é divisível por 3 = Fizz;
+2. Numero é divisível por 5 = Buzz;
+3. Numero é divisível por 3 e 5 = Retorna FizzBuzz;
+4. Numero NÃO É divisível por 3 e 5 = Retorna o que for digitado;
+a1). Checar se o número é realemente um numero = Retorna o própio número;
+a2). Use a funçãp com números de 0 a 100 
 */
 
-function ePaisagem(altura, largura) {
-    return largura > altura;    
+function fizzBuzz(numero) {
+    if (typeof(numero) !== 'number') return ` "${numero}" não é um numero`;
+    if (numero % 3 === 0 && numero % 5 === 0) return 'FizzBuzz'; 
+    if (numero % 3 === 0) return 'Fizz'; 
+    if (numero % 5 === 0) return 'Buzz';
+    return numero;
 }
 
-console.log(ePaisagem(12,44));
-console.log(ePaisagem(44,12));
+for (let i = 0;  i<= 100; i++) {
+    console.log(i, fizzBuzz(i));
+}
 
-//Arrow funcion 
-var ePaisagem2 = (altura, largura) => largura > altura;  
-
-console.log(ePaisagem2(12,44));
-console.log(ePaisagem2(44,12));
+console.log(fizzBuzz(368));
