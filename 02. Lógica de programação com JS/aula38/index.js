@@ -42,7 +42,6 @@ function random (min, max) {
     return Math.floor(r); // Math.floor() faz com que me traz sempre um valor inteiro 
 }
 
-
 do {
     rand = random(min, max);
     console.log(rand);
