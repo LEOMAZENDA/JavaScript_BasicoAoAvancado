@@ -97,10 +97,6 @@
 // };
 // h1.innerHTML = data.toLocaleDateString('pt-BR', opcoes);
 
-const h1 = document.querySelector('.container h1');
-const data = new Date();
-h1.innerHTML = data.toLocaleString('pt-PT', { dateStyle: 'full', timeStyle: 'short' });
-
 
 // function getNomeMeses(numeroMes) {
 //     const meses = ['janeiro', 'fevereiro', 'março', 'abril', 'maio', 'junho', 'julho',
@@ -113,4 +109,8 @@ h1.innerHTML = data.toLocaleString('pt-PT', { dateStyle: 'full', timeStyle: 'sho
 //         'sexta-feira', 'sabado'];
 //     return diasSemana[dia];
 // }
+
+const h1 = document.querySelector('.container h1');
+const data = new Date();
+h1.innerHTML = data.toLocaleString('pt-PT', { dateStyle: 'full', timeStyle: 'short' });
 
