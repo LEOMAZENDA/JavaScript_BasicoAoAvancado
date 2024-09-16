@@ -21,11 +21,11 @@
 
 // percorrendo arrey 
 
-const frutas = ['Leonildo', 'Esperança', 'Yohanna', 'Welvio', 'Gilmiro', 'Joana', 'Pedro']
+const pessoas = ['Leonildo', 'Esperança', 'Yohanna', 'Welvio', 'Gilmiro', 'Joana', 'Pedro']
 
-frutas.length; 
-console.log(frutas.length);
+pessoas.length; 
+console.log(pessoas.length);
 
-for (let i = 0; i < frutas.length ;i++) {
-    console.log(`indice ${i} = ${frutas[i]}`);
+for (let i = 0; i < pessoas.length ;i++) {
+    console.log(`indice ${i} = ${pessoas[i]}`);
 }
