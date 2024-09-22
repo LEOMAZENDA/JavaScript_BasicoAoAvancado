@@ -8,7 +8,7 @@ iniciar.addEventListener('click', function(e){
 });
 
 pausar.addEventListener('click', function(e){
-    alert('Oi.. Clicado no pausar');
+    // alert('Oi.. Clicado no pausar');
 });
 
 zerar.addEventListener('click', function(e){
